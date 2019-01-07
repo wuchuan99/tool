@@ -1,0 +1,296 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.allWrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #f3f3f3;
+  font-size: 16px;
+  /* border-top: solid 90px #999999;
+  border-left: solid 60px #999999; */
+  box-sizing: border-box;
+  padding-left: 40px;
+  letter-spacing: 1px;
+}
+
+.head {
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 190px;
+}
+
+.head label {
+  font-size: 18px;
+  margin-right: 29px;
+}
+
+.head #add {
+  background-color: #31b0d5;
+  color: #ffffff;
+  border: none;
+}
+
+.head .searchBox {
+  display: flex;
+}
+
+.head #searchInput {
+  width: 216px;
+  height: 36px;
+  border: solid 1px #dddddd;
+  border-right: none;
+  border-radius: 20px 0 0 20px;
+  text-indent: 30px;
+  font-size: 14px;
+}
+
+.head #search {
+  border: solid 1px #dddddd;
+  border-left: none;
+}
+
+.editBox {
+  display: none;
+  height: 80px;
+  background-color: #ffffff;
+  border: solid 2px #f3f3f3;
+}
+
+.editBox div,
+.editBox input {
+  height: 80px;
+  width: calc(100% - 190px);
+  line-height: 80px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.editBox input {
+  border: none;
+}
+
+.editBox .optionBox {
+  width: 190px;
+  border-left: solid 1px #f3f3f3;
+  text-align: center;
+}
+
+.editBox .confirm,
+.editBox .cancel {
+  border-radius: 6px;
+}
+
+.content {
+  position: relative;
+  padding-bottom: 80px;
+  min-height: calc(100% - 90px);
+}
+
+.contentBox {
+  height: calc(100% - 85px);
+  overflow-y: auto;
+}
+
+.contentBox::-webkit-scrollbar {
+  display: none;
+}
+
+.layui-table-header th {
+  background-color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.layui-table-header .layui-table-cell {
+  height: 50px;
+  line-height: 50px;
+}
+
+.layui-table-cell {
+  text-align: center;
+  height: auto;
+  height: 80px;
+  line-height: 80px;
+}
+
+.layui-table td[data-field="name"] input {
+  border: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.layui-table td[data-field="deposit"] .layui-table-cell {
+  line-height: 20px;
+}
+
+.layui-table td[data-field="deposit"] .layui-table-cell span:first-of-type {
+  display: inline-block;
+  margin-top: 29px;
+}
+
+.layui-table-cell .editBtn,
+.layui-table-cell .deleteBtn,
+.viewBtn,
+.replyBtn {
+  width: 60px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 6px !important;
+  font-size: 14px;
+}
+
+.layui-table-cell .editBtn,
+.confirm,
+.viewBtn,
+.replyBtn {
+  background-color: #31b0d5 !important;
+}
+
+.layui-table-cell .deleteBtn,
+.cancel {
+  background-color: #cccccc !important;
+}
+
+.layui-table-page {
+  position: absolute;
+  bottom: 0;
+  background-color: #ffffff;
+}
+
+.layui-table td,
+.layui-table th,
+.layui-table-col-set,
+.layui-table-fixed-r,
+.layui-table-grid-down,
+.layui-table-header,
+.layui-table-page,
+.layui-table-tips-main,
+.layui-table-tool,
+.layui-table-total,
+.layui-table-view,
+.layui-table[lay-skin="line"],
+.layui-table[lay-skin="row"] {
+  border-color: #f3f3f3;
+}
+
+.layui-layer textarea {
+  width: 492px;
+  height: 260px;
+  background-color: #f3f3f3;
+  color: #999999;
+  border-radius: 6px;
+  border: none;
+  margin: 30px 154px;
+  padding: 20px;
+}
+
+.layui-layer .textBox {
+  position: relative;
+}
+
+.layui-layer #countBox {
+  position: absolute;
+  bottom: 49px;
+  right: 174px;
+  color: #999999;
+}
+
+.layui-layer {
+  border-radius: 12px !important;
+}
+
+.layui-layer-title {
+  border-radius: 12px 12px 0 0 !important;
+  background-color: #31b0d5 !important;
+  color: #ffffff !important;
+}
+
+.layui-table tbody tr:hover,
+.layui-table thead tr,
+.layui-table-click,
+.layui-table-header,
+.layui-table-hover,
+.layui-table-mend,
+.layui-table-patch,
+.layui-table-tool,
+.layui-table[lay-even] tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.layui-form{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.layerBox label{
+  columns: #333333;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.layerBox #headBox{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.layerBox #headBox img{
+  width: 100%;
+  height: 100%;
+}
+
+.layerBox .default{
+  width: 24px!important;
+  height: 24px!important;
+  margin-top: 18px;
+}
+
+/* body .layer_me{
+  background: none;
+  box-shadow: none;
+}  */
+.leaving{
+  display: none;
+  width: 498px;
+  /* height: 398px; */
+  border-radius: 0px;
+  /* border: 1px solid #707070; */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align:center;
+  padding: 35px 0;
+  position: relative;
+  background:#fff;}
+  .leaving p{font-size: 28px;line-height: 60px;width: 100%;display: block}
+  .leaving i{
+    position: absolute;
+    top: 21px;
+    right: 22px;
+    width: 20px;
+    height: 20px;
+    /* background: url('../img/cy_guanbi_black.png') no-repeat 0 0; */
+    cursor: pointer;
+    font-size: 36px;
+  }
+    .leaving .btn_box{
+    margin-top: 20px;}
+    .leaving button{
+    border-radius: 8px;
+    font-size: 18px;
+    margin:0 15px; }
+    .leaving .cancel{
+  background: #ccc;}
+  .leaving .submit{
+    background: #000;
+  }

@@ -1,0 +1,91 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,
+fieldset,input,textarea,p,blockquote,th,td {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img {
+    border:0;
+    display:block;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+a{
+    text-decoration:none;
+    display:inline-block;
+}
+
+.clearfix:after{
+        height:0;
+        content:" ";
+        display:block;
+        overflow:hidden;
+        clear:both;
+    }
+.clearfix{
+    zoom:1;
+}
+.layui-table-click{
+	background-color: #e8f6f5!important;
+}
+.layui-table-hover{
+	background-color: #e8f6f5!important;
+}
+.fl{
+    float: left;}
+.fr{
+    float: right;}
+.disb{
+    display: block;}
+.disn{
+    display: none;}
+.wauto{
+    width:auto;}
+.fnone{
+    float: none!important;}
+.common-container{
+    height: 100%;}
+.layui-input:focus{
+    outline: 0;
+    border-color: #009688!important;
+}
+/*定制化选中颜色*/
+::-moz-selection{background:#009688; color:#FFF;}
+::selection {background:#009688; color:#FFF;}
+
+.layui-table-view .layui-table{
+    width: 100%;
+}
+.layui-form-select dl dd.layui-this{
+    background-color:#009688;
+}
+.layui-table-tips-main{
+    overflow-y:unset
+}
+.layui-table-tips-c{
+    display: none;
+
+}
+#amount {
+    width:100%;
+    height:30px;
+    line-height:30px;
+    text-align: center;
+    border:1px solid #ccc;
+    margin-top:-10px;
+}

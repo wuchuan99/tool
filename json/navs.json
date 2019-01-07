@@ -1,0 +1,33 @@
+[{
+	"title" : "后台首页",
+	"icon" : "icon-computer",
+	"href" : "page/main/main.html",
+	"spread" : false
+},{
+	"title" : "商户管理",
+	"icon" : "&#xe630;",
+	"href" : "",
+	"spread" : false,
+	"children" : [
+		{
+			"title" : "新增商户申请",
+			"icon" : "&#xe61c;",
+			"href" : "page/merchant_management/merchant_management.html",
+			"spread" : false
+		}
+	]
+},
+{
+	"title" : "其他页面",
+	"icon" : "&#xe630;",
+	"href" : "",
+	"spread" : false,
+	"children" : [
+		{
+			"title" : "404页面",
+			"icon" : "&#xe61c;",
+			"href" : "page/404.html",
+			"spread" : false
+		}
+	]
+}]

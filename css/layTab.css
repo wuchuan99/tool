@@ -1,0 +1,326 @@
+/*禁止选择*/
+.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+/*common*/
+.p0{
+	padding: 0!important;
+}
+.w30{
+	width: 30%!important;
+}
+.mr5{
+	margin-right: 5%!important;
+}
+.tr90{
+	transform: rotate(90deg)!important;
+}
+.dn{
+	display: none!important;
+	}
+/*common end*/
+
+
+ul.tool-box-ul {
+	padding:19px 25px;
+}
+
+ul.tool-box-ul>li.tool-box-li {
+	width: 250px;
+	margin-right: 20px;
+	float: left;
+}
+
+#amount{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	border:1px solid #ccc;
+	margin-top:-10px;
+}
+
+.toRight{
+	float: right;
+	margin-left: 10px;
+}
+
+div.layui-input-inline {
+	width: 100%!important;
+}
+
+ul.tool-box-ul>li.tool-box-li .tool-box-label {
+	display: block;
+	font: normal 14px/2em "微软雅黑";
+}
+
+#searchBtn {
+	width: 112px;
+	height: 38px;
+	position: relative;
+	top: 27px;
+}
+#resetBtn {
+	width: 112px;
+	height: 38px;
+	position: relative;
+	top: 27px;
+}
+#exportBtn {
+	width: 112px;
+	height: 38px;
+	position: relative;
+	top: 27px;
+}
+/*搜索框结束*/
+#addBtn{
+	float: right;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+}
+
+/*APP开始*/
+.layui-app{
+	padding: 0px 25px;
+}
+.layui-app .select-search{
+	
+}
+.layui-app .select-search .select-search-div{
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 10px;
+	float: left;
+	color: #000000;
+	font: normal 14px/40px "微软雅黑";
+	text-align: center;
+	background-color: #ECECEC;
+	border: 1px silid #C6C6C6;
+	cursor: pointer;
+	transition: all .3s;
+}
+.layui-app .select-search .select-search-div.act{
+	color: #fff;
+	background-color: #009688;
+}
+.layui-app .app-table{
+	margin-top: 25px;
+	border-top: 2px solid #009688;
+}
+.layui-app .app-table div.layui-form{
+	margin-top: 0;
+	}
+.layui-app .app-table div.layui-form .layui-table-body{
+	overflow-x: hidden;
+}
+/*分页*/
+#layTablePage{
+	text-align: right;
+}
+/*LAYER*/
+
+#addLayer{
+	display: none;
+	padding: 30px 40px;
+}
+.required-icon{
+	color: red;
+}
+.app-layer{
+	border: 1px solid #E3E3E3;
+	border-top: 2px solid #009688;
+}
+.app-layer .package{
+	height: 40px;
+	line-height: 40px;
+	background-color: #F5F5F5;
+	cursor: pointer;
+}
+.app-layer .package .package-title{
+	float: left;
+	margin-left: 15px;
+}
+.app-layer .package .package-some{
+	float: right;
+}
+.app-layer .package .package-some>i.icon{
+	padding: 5px;
+	color:#009688;
+	display: inline-block;
+	transition: all 0.3s;
+}
+.app-layer .package .package-some>i.description{
+	font-style: normal;
+	color:#000;
+	font-size: 12px;
+}
+.app-layer .package .package-some>i.deg{
+	transform: rotateX(180deg);
+}
+.app-layer .app-layer-content{
+	padding: 35px 60px;
+}
+.app-layer .tool-box-li:nth-of-type(3n){
+	margin-right: 0!important;
+}
+.app-layer .layer-place{
+	display: none;
+	font: normal 12px/30px "微软雅黑";
+	color: #8D8D8D;
+	text-align: center;
+	cursor: pointer;
+}
+.app-layer .layer-place i{
+	font: normal 12px/30px "微软雅黑";
+	color: #8D8D8D;
+	padding: 5px;
+}
+#uploadImg1,#uploadImg2,#uploadImg3,#uploadImg4,#uploadImg5{
+	width: 100%;
+	height: 222px;
+}
+
+button.my-btn{
+	height: 28px;
+    line-height: 28px;
+    padding: 0 16px;
+    font-size: 12px;
+}
+
+.btn-info {
+	background-color: #00c1de;
+	border-color: #00c1de;
+	color: #fff;
+  	display: inline-block;
+	margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    overflow: visible;
+    outline: none;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc;
+}
+
+.btn-success{
+	color: #fff;
+    background-color: #2cbb4e;
+    border-color: #2cbb4e;
+    
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    overflow: visible;
+    outline: none;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+}
+
+.tool-add-box {
+    padding: 0 35px;
+}
+.tool-add-box .add {
+    width: 112px;
+    height: 38px;
+    float: right;
+}
+#setButton{
+	margin-right: 10px;
+}
+
+/* 按钮样式  */
+.btn-link:focus, .btn-link:hover {
+    color: #23527c;
+    text-decoration: underline;
+    background-color: transparent;
+}
+.btn-link, .btn-link.active, .btn-link:active, .btn-link[disabled], fieldset[disabled] .btn-link {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-link, .btn-link:active, .btn-link:focus, .btn-link:hover {
+    border-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+}
+.btn.active, .btn:active {
+    background-image: none;
+    outline: 0;
+}
+.btn-xs {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.btn-link {
+    font-weight: 400;
+    color: #337ab7;
+    border-radius: 0;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.layui-layer-btn {
+    background: #ddd!important;
+    text-align: center!important;
+}
